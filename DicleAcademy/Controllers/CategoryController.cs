@@ -8,5 +8,9 @@ namespace DicleAcademy.Controllers
         {
             return View("CategoryIndex");
         }
+        public IActionResult CategoryDetails()
+        {
+            return View("CategoryDetailsIndex");
+        }
     }
 }
