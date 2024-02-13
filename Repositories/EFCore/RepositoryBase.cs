@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.EFCore
 {
-    public class RepositoryBase
-    {
+    public class RepositoryBase<T> : Irepo
+    {ggg     
     }
 }
