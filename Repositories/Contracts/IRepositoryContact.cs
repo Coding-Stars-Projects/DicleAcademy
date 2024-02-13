@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryContact
+    public interface IRepositoryContact: IRepositoryBase<Contact>
     {
+        IQueryable<Contact> GetContact(int id, bool trackchanges);
     }
 }

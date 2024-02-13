@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryWelcomeInformations
+    public interface IRepositoryWelcomeInformations : IRepositoryBase<WelcomeInformations>
     {
+        IQueryable<WelcomeInformations> GetWelcomeInformations(int id, bool trackchanges);
     }
 }

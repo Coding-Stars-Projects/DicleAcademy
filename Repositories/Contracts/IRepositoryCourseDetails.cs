@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryCourseDetails
+    public interface IRepositoryCourseDetails:IRepositoryBase<CourseDetails>
     {
+        IQueryable<CourseDetails> GetCourseDetails(int id, bool trackchanges);
     }
 }

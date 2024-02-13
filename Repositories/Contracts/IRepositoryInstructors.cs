@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryInstructors
+    public interface IRepositoryInstructors: IRepositoryBase<Instructors>
     {
+        IQueryable<Instructors> GetInstructorsh(int id, bool trackchanges);
     }
 }
