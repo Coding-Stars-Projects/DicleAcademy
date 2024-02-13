@@ -9,5 +9,6 @@ namespace Repositories.Contracts
     public interface IRepositoryCoursesCategories : IRepositoryBase<CoursesCategories>
     {
         IQueryable<CoursesCategories> GetCoursesCategories(int id, bool trackchanges);
+        IEnumerable<CoursesCategories> GetCoursesCategories(RequestParameters parameters, bool trackChanges);
     }
 }

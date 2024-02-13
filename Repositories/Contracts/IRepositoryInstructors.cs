@@ -9,5 +9,6 @@ namespace Repositories.Contracts
     public interface IRepositoryInstructors: IRepositoryBase<Instructors>
     {
         IQueryable<Instructors> GetInstructorsh(int id, bool trackchanges);
+        IEnumerable<Instructors> GetInstructors(RequestParameters parameters, bool trackChanges);
     }
 }

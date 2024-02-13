@@ -13,7 +13,7 @@ namespace Repositories.EFCore
         {
 
         }
-        public IQueryable<Agent> GetAgent(int id, bool trackChanges)
+        public IQueryable<AboutUs> GetAboutUs(int id, bool trackChanges)
             => GenericReadExpression(trackChanges, x => x.agtId == id);
     }
 }

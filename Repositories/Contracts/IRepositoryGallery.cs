@@ -9,5 +9,6 @@ namespace Repositories.Contracts
     public interface IRepositoryGallery :IRepositoryBase<Gallery>
     {
         IQueryable<Gallery> GetGallery(int id, bool trackchanges);
+        IEnumerable<Gallery> GetGallery(RequestParameters parameters, bool trackChanges);
     }
 }

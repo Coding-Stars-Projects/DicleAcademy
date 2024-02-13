@@ -9,5 +9,6 @@ namespace Repositories.Contracts
     public interface IRepositoryContact: IRepositoryBase<Contact>
     {
         IQueryable<Contact> GetContact(int id, bool trackchanges);
+        IEnumerable<Contact> GetContact(RequestParameters parameters, bool trackChanges);
     }
 }
