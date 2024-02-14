@@ -12,7 +12,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
     //Deneme
-    //Deneme2.3
+    //Deneme2
 }
 
 app.UseHttpsRedirection();
@@ -25,4 +25,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "Admin",
+    areaName: "Admin",
+    pattern: "{controller=Admin}/{action=Index}/{id?}");
+
 app.Run();
