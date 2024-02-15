@@ -29,9 +29,6 @@
             _repositorySkills= new Lazy<IRepositorySkills(() => new RepositorySkils(_context));
             _repositoryWelcomeInformations= new Lazy<IRepositoryWelcomeInformations(() => new RepositoryWelcomeInformations(_context));
         }
-        
-
-
         public void Save()
         {
             _context.SaveChanges();
