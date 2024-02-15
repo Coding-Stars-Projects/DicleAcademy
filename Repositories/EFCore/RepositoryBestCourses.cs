@@ -16,6 +16,6 @@ namespace Repositories.EFCore
 
         public IQueryable<BestCourses> GetBestCourses(int id, bool trackchanges)
 
-                => GenericReadExpression(trackchanges, x => x.customerId == id);
+                => GenericReadExpression(trackchanges, x => x.bestcoursesId == id);
     }
 }

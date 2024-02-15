@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryManager : IRepositoryBase<Manager>
+    public interface IRepositoryManager :IRepositoryBase<Manager>
     {
         IRepositoryAboutUs AboutUs { get; }
         IRepositoryBestCourses BestCourses { get; } // yönetim olduğu için set yapamayız 
