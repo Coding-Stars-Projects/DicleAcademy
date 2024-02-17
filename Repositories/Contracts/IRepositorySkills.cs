@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositorySkills
+    public interface IRepositorySkills : IRepositoryBase<Skills>
     {
+        IQueryable<Skills>GetSkills(int id, bool trackchanges);
+        IEnumerable<Skills> GetSkills(RequestParameters parameters, bool trackChanges);
     }
 }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DicleAcademy", "DicleAcademy\DicleAcademy.csproj", "{DBB064BD-D652-46AC-9035-6A0F5C75796C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{D7667561-A3EE-4704-9667-2E9028D3A3E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{BE39F62E-FE3F-4244-88D5-9FD379CF2A4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{DBB064BD-D652-46AC-9035-6A0F5C75796C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBB064BD-D652-46AC-9035-6A0F5C75796C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBB064BD-D652-46AC-9035-6A0F5C75796C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7667561-A3EE-4704-9667-2E9028D3A3E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7667561-A3EE-4704-9667-2E9028D3A3E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7667561-A3EE-4704-9667-2E9028D3A3E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7667561-A3EE-4704-9667-2E9028D3A3E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE39F62E-FE3F-4244-88D5-9FD379CF2A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE39F62E-FE3F-4244-88D5-9FD379CF2A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE39F62E-FE3F-4244-88D5-9FD379CF2A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE39F62E-FE3F-4244-88D5-9FD379CF2A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
+    public interface IRepositoryBestCourses: IRepositoryBase<BestCourses>
+
     {
         IQueryable<BestCourses> GetBestCourses(int id, bool trackchanges);
+        IEnumerable<BestCourses> GetBestCourses(RequestParameters parameters, bool trackChanges);
     }
 }

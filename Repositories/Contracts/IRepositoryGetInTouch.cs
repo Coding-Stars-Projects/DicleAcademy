@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-    public interface IRepositoryGetInTouch
+    public interface IRepositoryGetInTouch: IRepositoryBase<GetInTouch>
     {
+        IQueryable<GetInTouch> GetGetInTouch(int id, bool trackchanges);
+        IEnumerable<GetInTouch> GetInTouch(RequestParameters parameters, bool trackChanges);
     }
 }
